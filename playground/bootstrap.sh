@@ -6,7 +6,7 @@ cd /home/vagrant
 
 if [ ! -d fopnp ]
 then
-    sudo -u vagrant git clone https://github.com/brandon-rhodes/fopnp.git
+    sudo -u vagrant git clone https://github.com/srufle/fopnp.git
 fi
 
 sudo -u vagrant ln -fs ../fopnp/playground/ssh-config .ssh/config
